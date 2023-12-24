@@ -1,0 +1,16 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<siteMap xmlns="http://schemas.microsoft.com/AspNet/SiteMap-File-1.0" >
+  <siteMapNode url="" title="Веб-застосунок"  description="">
+	  <siteMapNode url="" title="Для користувача"  description="">
+		  <siteMapNode url="/" title="Головна" description="" />
+		  <siteMapNode url="/Account/Register" title="Реєстрація" description="" />
+		  <siteMapNode url="/Account/Login" title="Авторизація" description="" />
+		  <siteMapNode url="/Orders" title="Мої замовлення" description="" />
+		  <siteMapNode url="/Order.asmx" title="Розрахувати вартість" description="" />
+	  </siteMapNode>
+	  <siteMapNode url="" title="Для адміністратора"  description="">
+		  <siteMapNode url="/Categories" title="Налаштування категорій" description="" />
+		  <siteMapNode url="/Products" title="Налаштування товарів" description="" />
+	  </siteMapNode>
+  </siteMapNode>
+</siteMap>
